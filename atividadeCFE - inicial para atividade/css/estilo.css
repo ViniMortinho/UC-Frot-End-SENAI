@@ -1,0 +1,146 @@
+
+    
+
+/*cabeçalho*/
+
+.flicker-in-1 {
+    -webkit-animation: flicker-in-1 2s steps(2, end);
+    animation: flicker-in-1 2s steps(2, end);
+}
+
+@-webkit-keyframes flicker-in-1 {
+    0% { opacity: 0; }
+    /* rest of the animation keyframes... */
+    100% { opacity: 1; }
+}
+
+@keyframes flicker-in-1 {
+    0% { opacity: 0; }
+    /* rest of the animation keyframes... */
+    100% { opacity: 1; }
+}
+
+
+header img {
+    height: 70px;
+    width: 70px;
+    }
+#navibar-item{
+    font-size: 30px;
+}
+li {
+    font-size: 25px;
+    font: optical sizing 10px;
+}
+.align-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.align-right .form-control {
+    margin-right: 0px;
+    padding:.5rem;
+}
+
+.align-right .btn {
+    margin-right: 30px;
+    margin-left: 0px;
+    text-transform:initial;
+    padding: 10px;
+}
+
+/*carrocel*/
+.carousel-inner img {
+  max-width: 99%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10;
+}
+
+
+
+
+/*Produtos vendidos*/
+
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  flex: 1 0 29%;
+   /* Ajuste os valores para definir a largura e a flexibilidade desejadas */
+  margin-right: 10px; /* Espaçamento entre os cards */
+
+}
+#section-vendidos{
+    text-align: center;
+}
+#section-vendidos h2 {
+    font-size: bold;
+    padding: 20px;
+    margin: 1px;
+}
+#section-vendidos img {
+    height: 300px;
+    border-radius: 10;
+}
+#section-vendidos .card {
+    margin: 5px;
+    border: 1px;
+    border-radius: 10px;
+}
+
+#section-vendidos .container {
+    display: flex;
+}
+
+
+/*Rodapé*/
+
+
+
+
+
+
+    
+footer p {
+    font-weight: bold;
+    padding: 10px;
+}
+/*Botão Voltar topo*/
+#voltar-topo {
+    position: fixed;
+    bottom: 5px;
+    right: 50px;
+}
+
+/* página de login  */
+#section-login {
+    margin-top: 100px;
+}
+
+#section-login h1 {
+    text-align: center;
+}
+#section-login input {
+    width: 230px;
+}
+
+/* Formulário de cadastro*/
+#section-cadastro {
+    padding: 5px;
+    text-align: center;
+   
+}
+#form-cadastrar {
+    padding: 50px;
+    display: none;
+}
+.card-footer-login {
+    height: 300px;
+}
+
+
